@@ -19,6 +19,29 @@ Users of this software are expected to use this software responsibly while abidi
 
 It is more likely to work on your computer, but will be quite slow. Follow instructions for the basic installation [here](https://github.com/s0md3v/roop/wiki/1.-Installation).
 
+1、安装软件，任选其一（参照位置https://roop-ai.gitbook.io/roop/installation/basic/windows）
+Python
+winget install --exact --id Python.Python.3.10
+
+PIP
+python -m ensurepip
+
+GIT（推荐）
+winget install --exact --id Git.Git
+
+FFmpeg
+winget install --exact --id=Gyan.FFmpeg
+
+2、 Clone Repository
+git clone https://github.com/s0md3v/roop
+
+3、Install dependencies （We highly recommend to work with a venv or conda to avoid issues.）
+pip install -r requirements.txt
+
+4、 Done
+You should be able to run roop using <python run.py> command. Keep in mind that while running the program for first time, it will download some models which can take time depending on your network connection.
+
+
 ### Acceleration
 
 If you own a capable GPU and are prepared to address any software problems, you have the option to activate such acceleration, which offers significantly enhanced speed. Once you finished the basic installation, you can follow the instructions for the acceleration installation [here](https://github.com/s0md3v/roop/wiki/2.-Acceleration).
