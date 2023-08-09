@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 4、 Done
 
-You should be able to run roop using <python run.py> command. Keep in mind that while running the program for first time, it will download some models which can take time depending on your network connection.
+You should be able to run roop using "python run.py" command. Keep in mind that while running the program for first time, it will download some models which can take time depending on your network connection.
 
 
 ### Acceleration
